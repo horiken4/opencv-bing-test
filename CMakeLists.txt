@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.0)
 
 project(opencv-bing-test)
 
-add_definitions(-DCPU_ONLY)
-
 set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
